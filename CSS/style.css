@@ -63,6 +63,7 @@ section h2 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  
 }
 
 #mainNav .navbar-brand {
@@ -108,3 +109,24 @@ section h2 {
 #mainNav .navbar-nav > li > a:focus:hover {
   color: #fdcc52;
 }
+
+.mb-5{
+    height: 1rem;
+}
+/* Testimonials section ============= */
+
+section.testimonials {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  
+  section.testimonials .testimonial-item {
+    max-width: 50rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+  
+  section.testimonials .testimonial-item img {
+    max-width: 50rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+  }
