@@ -164,4 +164,12 @@ section.testimonials {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     object-fit: cover; /* Maintain aspect ratio and cover the container */
   }
+
+  .col-lg-12 {
+    margin-left: 3%;
+  }
+
+  .fw-skill{
+    margin-right: 5%;
+  }
   
