@@ -140,6 +140,8 @@ section.testimonials {
     grid-gap: 20px; /* Adjust the gap between grid items */
     margin-top: 20px; /* Space between jumbotron and grid */
     margin-left: 20%;
+    overflow: hidden;
+    
   }
   .grid-item {
     text-align: center;
@@ -148,8 +150,11 @@ section.testimonials {
   }
 
   .grid-item img {
-    max-width: 100%;
+    max-width: 300px;
+    max-height: 300px;
     height: auto;
+    
+    
   }
   
   /* Additional styling (placeholders) */
@@ -157,5 +162,6 @@ section.testimonials {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
   }
   
