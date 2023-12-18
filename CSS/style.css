@@ -110,10 +110,7 @@ section h2 {
   color: #fdcc52;
 }
 
-.mb-5{
-    height: 2rem;
-    text-align: justify; /* Justify the text */
-}
+
 /* Testimonials section ============= */
 
 section.testimonials {
@@ -122,9 +119,9 @@ section.testimonials {
   }
   
   section.testimonials .testimonial-item {
-    max-width: 50rem;
+    /* max-width: 50rem; */
     padding-bottom: 1rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
   }
   
   section.testimonials .testimonial-item img {
@@ -172,6 +169,9 @@ section.testimonials {
   .fw-skill{
     margin-right: 5%;
   }
+  .text-justify{
+    text-align:justify ;
+  }
   
   .bg-black {
     background-color: #64a19d !important;
@@ -211,7 +211,7 @@ section.testimonials {
 .download::after {
   content: "Click to download";
   position: absolute;
-  top: -25px;
+  top: 25px;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.8);
