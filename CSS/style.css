@@ -176,3 +176,17 @@ section.testimonials {
   .bg-black {
     background-color: #64a19d !important;
   }
+
+  /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
+.card-body:hover,
+.card-body:hover {
+  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+}
+.card-body{
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px rgbs(0, 0, 255, 00.35s);
+  transition: box-shadow 0.3s ease-in-out;
+}
