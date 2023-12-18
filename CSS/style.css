@@ -200,5 +200,37 @@ section.testimonials {
   transition: shadow-pulse 1.7s infinite alternate;
 }
 .card:hover{
-  box-shadow: 0 0 15px rgba(236, 98, 98, 0.5);
+  box-shadow: 0 0 15px rgba(255, 46, 46, 0.5);
+}
+
+/* Styling the tooltip */
+.download {
+  position:relative;
+}
+
+.download::after {
+  content: "Click to download";
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Show the tooltip on hover */
+.download:hover::after {
+  opacity: 1;
+}
+
+/* Remove the tooltip when the link is focused or active */
+.download a:focus+.download::after,
+.download a:active+.download::after {
+  opacity: 0;
 }
